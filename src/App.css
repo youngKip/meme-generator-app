@@ -28,6 +28,7 @@ body{
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  padding: 40px;
   margin-bottom: 17px;
   margin-top: 20px;
 }
@@ -37,6 +38,7 @@ body{
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  word-wrap: break-word;
 }
 
 .form--button {
@@ -81,6 +83,7 @@ body{
       0 -2px 0 #000,
       -2px 0 0 #000,
       2px 2px 5px #000;
+  word-wrap: break-word;
 }
 
 .bottom {
